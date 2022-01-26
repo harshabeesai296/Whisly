@@ -1,0 +1,31 @@
+.body-section6 {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../../img/sec6bg.png);
+  background-repeat: no-repeat;
+  background-size: 1440px 700px;
+  flex-direction: column;
+}
+
+.sec6-buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sec6-text {
+  width: 40%;
+}
+.sec6-buttons button {
+  background-color: #cebd86;
+  height: 40px;
+  width: 250px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

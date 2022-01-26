@@ -1,0 +1,57 @@
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 75px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.navigation {
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navItem a:hover {
+  color: #cebd86;
+}
+
+.social-media {
+  width: 10%;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media img {
+  cursor: pointer;
+}
+
+.whisly-logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -100px;
+}
+
+.whisly-logo img {
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+}

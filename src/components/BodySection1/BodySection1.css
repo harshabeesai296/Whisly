@@ -1,0 +1,44 @@
+.body-section1 {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../img/s1bg.png);
+  background-repeat: no-repeat;
+  background-size: 1440px 700px;
+}
+
+.body-section1-left {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-left {
+  height: 50%;
+  line-height: 25px;
+}
+
+.body-section1-right {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 button {
+  background-color: #cebd86;
+  height: 40px;
+  width: 185px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+}
